@@ -1,0 +1,15 @@
+Pygment style is zenburn.py
+
+On my mac the path to the directory to place zenburn.py is /opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pygments/styles
+
+I hacked the following line so my pygments would load.  In upstream versions of iPython this is not necessary.
+
+grep -n -r zenburn .
+./site-packages/IPython/frontend/qt/console/styles.py:44:default_dark_syntax_style = 'zenburn'
+Use grep -n -r linux . to find the line for yourself.
+
+Starting ipython
+
+ipython-2.7 qtconsole --editor=vim --colors=linux --stylesheet=zenburn_ipython.css 
+
+
