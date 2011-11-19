@@ -12,4 +12,6 @@ Starting ipython
 
 ipython-2.7 qtconsole --editor=vim --colors=linux --stylesheet=zenburn_ipython.css 
 
+#TODO change traceback highlighting
+
 
