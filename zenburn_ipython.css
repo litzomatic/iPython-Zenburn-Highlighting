@@ -2,9 +2,9 @@ QPlainTextEdit, QTextEdit { background-color: #3f3f3f;
         color: #dcdccc;
         selection-background-color: #2f2f2f;
         selection-color: #dcdccc; }
-                .inverted { background-color: #2f2f2f; color: #dcdccc; }
-                .error { color: #e37170; }
-                .in-prompt { color: #dfcfaf; text-decoration: underline; }
-                .in-prompt-number { font-weight: bold; }
-                .out-prompt { color: #afbfdf; text-decoration: underline; }
-                .out-prompt-number { font-weight: bold; }
+.error { color: #e37170; }
+.in-prompt { color: #dfcfaf; text-decoration: underline; }
+.in-prompt-number { font-weight: bold; }
+.out-prompt { color: #afbfdf; text-decoration: underline; }
+.out-prompt-number { font-weight: bold; }
+.inverted { background-color: #2f2f2f; color: #dcdccc; }
